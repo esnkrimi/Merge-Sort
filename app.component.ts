@@ -9,13 +9,14 @@ export class AppComponent {
   name = 'Angular';
   toShow: any;
 
-  startMerge() {
-    this.initialize();
+  calculate() {
+    this.setup();
   }
 
-  initialize() {
+  setup() {
     let i = 0;
     const array = ['F', 'D', 'J', 'B', 'E','F', 'Z', 'X', 'T','F'];
+
     this.toShow = this.mergeSort<string>(array,'ASC', (a: string, b: string) => a.localeCompare(b));
   }
 
