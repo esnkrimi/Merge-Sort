@@ -1,6 +1,6 @@
 # Merge-Sort
 
-Angular Merge Sort
+Angular Merge Sort is created by https://stackblitz.com/@julianobrasil
 
 Implementaion of Merge Sort Algorithm by type script. 
 
